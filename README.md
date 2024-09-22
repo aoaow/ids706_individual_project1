@@ -115,7 +115,7 @@ The breast cancer dataset is a classic and very easy multi-class classification 
 
 #### **1. General Statistics**
 
-Using Polars' `describe()` method, we obtain the following statistics for each feature:
+Using pandas' `describe()` method, we obtain the following statistics for each feature:
 
 | Statistic          | Value                      |
 |--------------------|----------------------------|
@@ -269,7 +269,7 @@ This project is licensed under the MIT License.
 ### **1. Data Loading**
 
 - **Function:** `load_breast_cancer_data()` in `lib.py`
-- **Description:** Loads the breast cancer dataset from scikit-learn and converts it into a Polars DataFrame.
+- **Description:** Loads the breast cancer dataset from scikit-learn and converts it into a pandas DataFrame.
 - **Usage:**
 
   ```python
@@ -278,12 +278,12 @@ This project is licensed under the MIT License.
 
 ### **2. Data Processing**
 
-- **Polars DataFrame Creation:**
+- **Pandas DataFrame Creation:**
   
   - Data and feature names are used to create the DataFrame.
   - The target variable is added as a new column.
 
-- **Advantages of Polars:**
+- **Advantages of pandas:**
 
   - High performance for data manipulation.
   - Efficient handling of large datasets.
@@ -321,7 +321,7 @@ This project is licensed under the MIT License.
 - **Contents:**
 
   - Data loading and initial exploration.
-  - Descriptive statistics using Polars.
+  - Descriptive statistics using pandas.
   - Visualizations (optional).
 
 - **Features:**
