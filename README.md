@@ -3,6 +3,7 @@
 ## project structure
 
 project/
+
 ├── README.md
 ├── Makefile
 ├── requirements.txt
