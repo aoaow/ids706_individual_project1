@@ -24,7 +24,7 @@
 
 ## Introduction
 
-This project performs descriptive statistics on the breast cancer dataset using pandas. The project demonstrates efficient data processing, shared code usage, testing with `pytest` and `nbval`, and continuous integration using GitLab CI/CD.
+This project performs descriptive statistics on the breast cancer dataset using pandas. The project demonstrates efficient data processing, shared code usage, testing with `pytest` and `nbval`, and continuous integration using GitLab CI/CD. If interested, you can access a video of detailed instruction [here](https://youtu.be/cr253CVe2T0)
 
 ---
 
