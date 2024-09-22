@@ -384,10 +384,7 @@ This project demonstrates the use of Polars for efficient data analysis on the b
 
 For any questions or suggestions, please feel free to contact:
 
-- **Name:** Your Name
-- **Email:** your.email@example.com
-- **GitLab:** [yourusername](https://gitlab.com/yourusername)
+- **Name:** Eleanor Jiang
+- **GitLab:** [aoaow](https://gitlab.com/aoaow)
 
 ---
-
-*Note: Replace placeholder text like `yourusername`, `yourproject`, and contact information with your actual details.*
