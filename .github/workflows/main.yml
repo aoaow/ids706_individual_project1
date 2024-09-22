@@ -15,9 +15,7 @@ jobs:
     - name: lint with pylint
       run: |
         make lint
-    - name: generate_and_push
-      run: |
-        make generate_and_push
+
   job1:
     runs-on: ubuntu-latest
     permissions:                # Job-level permissions configuration starts here
