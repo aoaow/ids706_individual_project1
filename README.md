@@ -250,13 +250,11 @@ The project uses GitLab CI/CD for continuous integration. The pipeline performs 
 
 - **Pipeline Status:**
 
-  [![pipeline status](https://gitlab.com/yourusername/yourproject/badges/main/pipeline.svg)](https://gitlab.com/yourusername/yourproject/-/pipelines)
+  [![pipeline status](https://gitlab.com/aoaow/ids706_individual_project1/badges/main/pipeline.svg)](https://gitlab.com/aoaow/ids706_individual_project1/-/pipelines)
 
 - **Coverage Report:**
 
-  [![coverage report](https://gitlab.com/yourusername/yourproject/badges/main/coverage.svg)](https://gitlab.com/yourusername/yourproject/-/commits/main)
-
-Replace `yourusername` and `yourproject` with your actual GitLab username and project name.
+  [![coverage report](https://gitlab.com/aoaow/ids706_individual_project1/badges/main/coverage.svg)](https://gitlab.com/aoaow/ids706_individual_project1/-/commits/main)
 
 ---
 
@@ -376,7 +374,7 @@ This project is licensed under the MIT License.
 
 ## Conclusion
 
-This project demonstrates the use of Polars for efficient data analysis on the breast cancer dataset. By structuring the project with shared code, thorough testing, and continuous integration, we ensure reliability and maintainability. The detailed steps and explanations provided aim to make it easy for others to understand and replicate the analysis.
+This project demonstrates the use of Pandas for efficient data analysis on the breast cancer dataset. By structuring the project with shared code, thorough testing, and continuous integration, we ensure reliability and maintainability. The detailed steps and explanations provided aim to make it easy for others to understand and replicate the analysis.
 
 ---
 
