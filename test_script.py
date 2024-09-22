@@ -1,5 +1,4 @@
 from script import main
-import pytest
 
 def test_main(capsys):
     # Run the main function
