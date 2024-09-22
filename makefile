@@ -1,15 +1,20 @@
-.PHONY: install format lint test
-
 install:
-	pip install -r requirements.txt
-
-format:
-	black .
-
-lint:
-	ruff .
+	pip install --upgrade pip &&\
+		pip install -r requirements.txt
 
 test:
-	pytest --nbval notebook.ipynb
-	pytest test_script.py
-	pytest test_lib.py
+	python -m pytest -vv --cov=main test_*.py
+	py.test --nbval *.ipynb
+
+format:
+	nbqa black *.ipynb &&\
+	black *.py && black test_*.py
+
+lint:
+	ruff check test_*.py && ruff check *.py
+	nbqa ruff *.ipynb
+
+deploy:
+	# deploy goes here
+		
+all: install lint test format
